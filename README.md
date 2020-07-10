@@ -10,6 +10,7 @@ This project was carried out as part of a course **application based on embedded
 
 ## Description
 IAP is mainly about coding the job of the IDE (Truestudio, STM3CubeIDE, Keil, ...) which means receiving the binary file by Bluetooth then write it in the flash memory. The specific memory zone to write the new program is defined in the flash memory map.
+
 ![Flash Memory Map](flash_memory_map.png)
 
 The user application is likely to have independent stack and interrupt vectors (both are recommended but neither is mandatory). When the IAP driver directly launches the user application:
