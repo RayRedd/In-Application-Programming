@@ -1,0 +1,8 @@
+boot_main.c:306:9:char2hex	0	static
+boot_main.c:322:10:getAddress	16	static
+boot_main.c:284:6:Process_HexLine	40	static
+boot_main.c:335:6:JumpToBootloader	0	static
+boot_main.c:368:6:Error_Handler	0	static
+boot_main.c:160:6:SystemClock_Config	88	static
+boot_main.c:91:5:boot_main	40	static
+boot_main.c:254:6:HAL_UART_RxCpltCallback	24	static
